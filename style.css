@@ -1,0 +1,51 @@
+body {
+    background-color:palevioletred;
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:palevioletred;
+    background-color:maroon;
+}
+
+#sketch_name {
+    color:maroon;
+}
+
+#show_sketch {
+    float:right;
+    background-color:palevioletred;
+    color:maroon;
+    font-weight:bold;
+}
+
+canvas {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px maroon;
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes example {
+    
+}
+
+p, span {
+    padding-top:10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+}
+
+#score {
+    font-size:35px;
+    margin-left:20px;
+}
+
+#time {
+    font-size:35px;
+    float:right;
+    margin-right:20p;
+}
